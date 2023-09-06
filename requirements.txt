@@ -1,0 +1,9 @@
+GCC
+Python
+G++
+Nasm
+Html
+Css
+Javascript
+
+- Adam Ahmed
