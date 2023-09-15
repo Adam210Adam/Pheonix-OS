@@ -10,8 +10,9 @@ import System0Loader.System16BitLoader
 System0Loader.System16BitLoader.load()
 os.system(r"cd C:\Users\sch\Desktop\Pheonix OS") # Changing working directory such as (wd)
 
-Cfile = hashlib.sha1("osCR".encode()).hexdigest()[0:5] # Hashed 0:5 Name of the Cfile
-PythonFile = hashlib.sha1("osCpython".encode()).hexdigest()[0:5] # Hashed 0:5 Name of the Python File
+Cfile = hashlib.sha1("osCR".encode()).hexdigest().capitalize()[0:5] # Hashed and Capatilizrd 0:5 Name of the Cfile
+PythonFile = hashlib.sha1("osCpython".encode()).hexdigest().capitalize()[0:5] # Hashed And Capatalized 0:5 Name of the Python File
+FileManager = hashlib.sha1("FileMaker/FileManager".encode()).hexdigest().capitalize()[0:5] # Hashed And Capatalized 0:5 Name of the Python File
 try:
     # try to open the compiled version of osCR.c
     open(r"build\osCR.exe")
