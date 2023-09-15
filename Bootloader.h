@@ -1,6 +1,6 @@
-#ifndef FOO_H_   /* Include guard */
-#define FOO_H_
+#ifndef BOOTLOADER_H_   /* Include guard */
+#define BOOTLOADER_H_
 
 int boot(int x);  /* An example function declaration */
 
-#endif // FOO_H_
+#endif // BOOTLOADER_H_

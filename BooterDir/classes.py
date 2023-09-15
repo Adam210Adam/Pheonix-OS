@@ -4,6 +4,7 @@ class Byte:
         self.value = value
 class RestorePoint:
     def __init__(self, name) -> None:
+        self.name = name
         import BooterDir.ROM as ROM
         ROM.addmemoryRestorePoint(f'{hex(60)}', name)
 
