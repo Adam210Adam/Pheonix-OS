@@ -18,7 +18,7 @@ try:
     open(r"build\osCR.exe")
 except:
     # if the compiled version of osCR.c was not found this code will run down bellow
-    print("Creating File System")
+    print(f"{FileManager}: Creating File System")
     try:
         # trying to make a directory called build
         os.mkdir("build")
